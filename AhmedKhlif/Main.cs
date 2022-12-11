@@ -35,5 +35,20 @@ namespace AhmedKhlif
             a.MainAccount = MainAccount;
             a.Show();
         }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MotherContainer_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void BuyBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

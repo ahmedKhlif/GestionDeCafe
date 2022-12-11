@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace AhmedKhlif
 {
-    public partial class Register : Form
+    public partial class Register : MetroFramework.Forms.MetroForm
     {
         public Register()
         {
@@ -81,6 +81,9 @@ namespace AhmedKhlif
             }
         }
 
-       
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

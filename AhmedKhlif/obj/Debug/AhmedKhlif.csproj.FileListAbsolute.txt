@@ -38,3 +38,22 @@ C:\project\GestionDeCafe\AhmedKhlif\obj\Debug\AhmedKhlif.pdb
 =======
 C:\Users\wisse\projects\c# training\AhmedKhlif\AhmedKhlif\obj\Debug\AhmedKhlif.Account.resources
 >>>>>>> a268ffa (Add: product Id and client Id config)
+C:\GestionDeCafe\AhmedKhlif\bin\Debug\AhmedKhlif.exe.config
+C:\GestionDeCafe\AhmedKhlif\bin\Debug\AhmedKhlif.exe
+C:\GestionDeCafe\AhmedKhlif\bin\Debug\AhmedKhlif.pdb
+C:\GestionDeCafe\AhmedKhlif\bin\Debug\MetroFramework.Design.dll
+C:\GestionDeCafe\AhmedKhlif\bin\Debug\MetroFramework.dll
+C:\GestionDeCafe\AhmedKhlif\bin\Debug\MetroFramework.Fonts.dll
+C:\GestionDeCafe\AhmedKhlif\obj\Debug\AhmedKhlif.csproj.AssemblyReference.cache
+C:\GestionDeCafe\AhmedKhlif\obj\Debug\AhmedKhlif.csproj.SuggestedBindingRedirects.cache
+C:\GestionDeCafe\AhmedKhlif\obj\Debug\AhmedKhlif.Account.resources
+C:\GestionDeCafe\AhmedKhlif\obj\Debug\AhmedKhlif.LogIn.resources
+C:\GestionDeCafe\AhmedKhlif\obj\Debug\AhmedKhlif.Main.resources
+C:\GestionDeCafe\AhmedKhlif\obj\Debug\AhmedKhlif.Product.resources
+C:\GestionDeCafe\AhmedKhlif\obj\Debug\AhmedKhlif.Properties.Resources.resources
+C:\GestionDeCafe\AhmedKhlif\obj\Debug\AhmedKhlif.Register.resources
+C:\GestionDeCafe\AhmedKhlif\obj\Debug\AhmedKhlif.csproj.GenerateResource.cache
+C:\GestionDeCafe\AhmedKhlif\obj\Debug\AhmedKhlif.csproj.CoreCompileInputs.cache
+C:\GestionDeCafe\AhmedKhlif\obj\Debug\AhmedKhlif.csproj.CopyComplete
+C:\GestionDeCafe\AhmedKhlif\obj\Debug\AhmedKhlif.exe
+C:\GestionDeCafe\AhmedKhlif\obj\Debug\AhmedKhlif.pdb

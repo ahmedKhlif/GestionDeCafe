@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace AhmedKhlif
 {
-    public partial class LogIn : Form
+    public partial class LogIn : MetroFramework.Forms.MetroForm
     {
 
         public bool UserSuccessfullyAuthenticated { get; private set; }
@@ -85,6 +85,57 @@ namespace AhmedKhlif
         private void metroPanel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void nomTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroPanel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+           if(mdpTextBox.Text.Length >0 )
+            {
+                mdpTextBox.UseSystemPasswordChar = false;
+            }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            if (mdpTextBox.Text.Length > 0)
+            {
+                mdpTextBox.UseSystemPasswordChar = true;
+            }
         }
     }
 }

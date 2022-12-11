@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace AhmedKhlif
 {
-    public partial class Account : Form
+    public partial class Account : MetroFramework.Forms.MetroForm
     {
         public Client MainAccount { get; set; }
         public Account()
@@ -21,12 +21,32 @@ namespace AhmedKhlif
 
         private void Account_Load(object sender, EventArgs e)
         {
-            nomTextBox.Text = MainAccount.nom_cl.Trim();
-            prenomTextBox.Text = MainAccount.prenom_cl.Trim();
-            telTextBox.Text = MainAccount.tel_cl.Trim();
-            mdpTextBox.Text = MainAccount.Mdp.Trim();
-            roleTextBox.Text = MainAccount.role_cl.Trim();
-            roleTextBox.Enabled= false;
+            nom.Text = MainAccount.nom_cl.Trim();
+            prenom.Text = MainAccount.prenom_cl.Trim();
+            tel.Text = MainAccount.tel_cl.Trim();
+            mdp.Text = MainAccount.Mdp.Trim();
+            role.Text = MainAccount.role_cl.Trim();
+            role.Enabled= false;
+        }
+
+        private void nomTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nomTextBox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroTextBox4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

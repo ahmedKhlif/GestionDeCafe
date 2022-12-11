@@ -44,8 +44,9 @@
             this.MotherContainer.Dock = System.Windows.Forms.DockStyle.Left;
             this.MotherContainer.Location = new System.Drawing.Point(0, 0);
             this.MotherContainer.Name = "MotherContainer";
-            this.MotherContainer.Size = new System.Drawing.Size(200, 570);
+            this.MotherContainer.Size = new System.Drawing.Size(255, 570);
             this.MotherContainer.TabIndex = 3;
+            this.MotherContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.MotherContainer_Paint);
             // 
             // AccountBtn
             // 
@@ -53,38 +54,39 @@
             this.AccountBtn.FlatAppearance.BorderSize = 0;
             this.AccountBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AccountBtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.AccountBtn.Location = new System.Drawing.Point(0, 94);
+            this.AccountBtn.Image = global::AhmedKhlif.Properties.Resources.client_2s;
+            this.AccountBtn.Location = new System.Drawing.Point(0, 205);
             this.AccountBtn.Name = "AccountBtn";
-            this.AccountBtn.Size = new System.Drawing.Size(200, 47);
+            this.AccountBtn.Size = new System.Drawing.Size(255, 93);
             this.AccountBtn.TabIndex = 2;
-            this.AccountBtn.Text = "Account";
             this.AccountBtn.UseVisualStyleBackColor = true;
             this.AccountBtn.Click += new System.EventHandler(this.AccountBtn_Click);
             // 
             // BuyBtn
             // 
             this.BuyBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BuyBtn.Enabled = false;
             this.BuyBtn.FlatAppearance.BorderSize = 0;
             this.BuyBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BuyBtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BuyBtn.Location = new System.Drawing.Point(0, 47);
+            this.BuyBtn.Image = global::AhmedKhlif.Properties.Resources._1019607sds1;
+            this.BuyBtn.Location = new System.Drawing.Point(0, 109);
             this.BuyBtn.Name = "BuyBtn";
-            this.BuyBtn.Size = new System.Drawing.Size(200, 47);
+            this.BuyBtn.Size = new System.Drawing.Size(255, 96);
             this.BuyBtn.TabIndex = 1;
-            this.BuyBtn.Text = "Buy";
             this.BuyBtn.UseVisualStyleBackColor = true;
+            this.BuyBtn.Click += new System.EventHandler(this.BuyBtn_Click);
             // 
             // MenuBtn
             // 
             this.MenuBtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.MenuBtn.FlatAppearance.BorderSize = 0;
             this.MenuBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.MenuBtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.MenuBtn.ForeColor = System.Drawing.Color.Chartreuse;
+            this.MenuBtn.Image = global::AhmedKhlif.Properties.Resources._1046747efd;
             this.MenuBtn.Location = new System.Drawing.Point(0, 0);
             this.MenuBtn.Name = "MenuBtn";
-            this.MenuBtn.Size = new System.Drawing.Size(200, 47);
+            this.MenuBtn.Size = new System.Drawing.Size(255, 109);
             this.MenuBtn.TabIndex = 0;
-            this.MenuBtn.Text = "Menu";
             this.MenuBtn.UseVisualStyleBackColor = true;
             this.MenuBtn.Click += new System.EventHandler(this.MenuBtn_Click);
             // 
@@ -99,6 +101,7 @@
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cafe Manager";
+            this.Load += new System.EventHandler(this.Main_Load);
             this.MotherContainer.ResumeLayout(false);
             this.ResumeLayout(false);
 

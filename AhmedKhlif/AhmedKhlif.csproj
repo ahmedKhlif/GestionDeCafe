@@ -112,6 +112,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
@@ -129,6 +130,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\client.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add client.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1046747.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1046747efd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezbuy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1019607sds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1019607sds1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rzr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\client 2s.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
